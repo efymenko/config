@@ -1,40 +1,23 @@
 [general]
-
 working_directory = "None"
-
 live_config_reload = true
-
 ipc_socket = true
 
-
-[env]
-
-
 [window]
-
-dimensions = { columns = 120, lines = 20 }
-
-position = { y = 0 }
-
+dimensions = { columns = 100, lines = 20 }
 padding = { x = 10, y = 10 }
-
 decorations = "None"
+opacity = 0.8
 
-opacity = 0.9
-
+[colors.primary]
+background = "#000000"
 
 [scrolling]
-
 history = 100000
 
-
 [font]
-
-normal = { family = "Hack Nerd Font Mono", style = "Regular" }
-
-size = 12
-
+normal = { family = "JetBrainsMonoNL Nerd Font Mono", style = "Regular" }
+size = 15
 
 [terminal]
-
-shell = "/usr/bin/fish"
+shell = "/usr/bin/zsh"
